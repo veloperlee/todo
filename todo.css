@@ -1,0 +1,127 @@
+/* 공통(common) 시작 */
+html,
+body,
+h1,
+ul {
+  margin: 0;
+  padding: 0;
+  /* outline: 1px solid orange; */
+  overflow: hidden;
+}
+
+html, body{
+    height: 100%;
+}
+
+li{
+    list-style: none;
+}
+
+a,h1,h2,h3,h4,h5,ol,ul {
+    /* 텍스트 공통 */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* 공통(common) 끝 */
+
+
+
+
+/* body 시작 */
+body{
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+}
+
+.todo{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+    /* background-color: rgb(4, 189, 196); */
+    background-color: #fff;
+    border-radius: 5%;
+}
+
+.title{
+    width: 100%;
+    padding: 30px 0;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+}
+
+input{
+    width: 70%;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    padding: 0 0 30px 0;
+}
+
+.list input{
+	border-radius: 10px;
+}
+
+.inner>ul{
+    display: flex;
+    justify-content: center;
+}
+
+.todolist{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 80%;
+    
+}
+
+.line{
+    text-decoration : line-through;
+}
+
+.inner>li{
+    /* background-color: aliceblue; */
+    background-color: blanchedalmond;
+
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 6px;
+}
+
+
+.font{
+    text-align: center;
+}
+
+.closeBtn{
+    width: 150px;
+    margin: 0 auto;
+}
+
+.closeAll{
+    width: 150px;
+    margin: 0 auto;
+}
+
+button.btn, button.closeAll{
+	background-color: blanchedalmond;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.todo p{
+	font-size: 12px;
+	text-align: center;
+}
+/* body 끝 */
